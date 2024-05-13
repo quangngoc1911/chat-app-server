@@ -8,7 +8,7 @@ const { app, server } = require('./socket/index')
 
 // const app = express()
 app.use(cors({
-    origin :"*",
+    origin :'https://chat-app-client-plum.vercel.app',
     credentials : true
 }))
 app.use(express.json())
